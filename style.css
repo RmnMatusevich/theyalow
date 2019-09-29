@@ -1,0 +1,854 @@
+@font-face {
+    font-family: "Asap";
+    src: url("fonts/asap/Asap-Regular.otf")
+}
+@font-face {
+    font-family: "Segoe WP";
+    src: url("fonts/SegoeWP.ttf");
+}
+@font-face {
+    font-family: "Segoe UI";
+    src: url("fonts/segoe-wp-light.ttf");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/open-sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lucida Sans";
+    src: url("fonts/open-sans/OpenSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("fonts/open-sans/OpenSans-Regular.ttf");
+}
+
+
+body {
+    width: 1300px;
+}
+
+header {
+    background-image: url(images/bg-header.png);
+    background-size: cover;
+    width: 100%;
+    height: 566px;
+}
+
+nav {
+    width: 100%;
+    height: 166px;
+    background-color: ;
+}
+.logo {
+    margin-left: 10.77%;
+    display: flex;
+    width: 317px;
+    height: 83px;
+}
+.logo-image {
+    margin-top: 28px;
+    width: 83px;
+    height: 83px;
+}
+.logo-text {
+    margin-top: 52px;
+    margin-left: 10px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
+    color: #ffffff;
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.41px;
+}
+
+.main-nav {
+    width: 461px;
+    height: 50px;
+    margin-left: 53.8%;
+    margin-top: -24px;
+    position: relative;
+}
+.nav-rectangle {
+    width: 453px;
+    height: 41px;
+    background-color: #f5c506;
+}
+#copy-1 {
+    opacity: 0.27;
+}
+
+#copy-2 {
+    opacity: 0.27;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+#original {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    display: flex;
+}
+
+.nav-item {
+    width: 172px;
+    border-right: rgba(155, 125, 8, 0.1) 1px solid;
+}
+
+.nav-item:hover {
+    background-color: #fff;
+    border-radius: 5px;
+    border-right: none;
+    transition-delay: 100ms;
+}
+.nav-item:click {
+    background-color: #ec9e03;
+}
+.nav-item > img {
+    margin-left: 8px;
+    margin-top: 11px;
+}
+.nav-item__text {
+    color: #9b7d08;
+    font-family: "Segoe WP", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -20px;
+    margin-left: 38px;
+}
+
+.header-video {
+    margin-left: 11%;
+    width: 549px;
+    height: auto;
+    position: relative;
+}
+
+.video-button-icon__circle {
+    margin-top: -200px;
+    padding-left: 240px;
+}
+
+.video-button-icon__recteng {
+   margin-top: -53px;
+   padding-left: 268px;
+}
+
+.video-controll {
+    display: flex;
+    justify-content: space-evenly;
+    width: 549px;
+    position: absolute;
+    bottom: -120px;
+}
+
+.play-button {
+    width: 27px;
+    height: 27px;
+    background-color: #f5c507;
+    margin-top: -7px;
+    opacity: 0.28;
+}
+.play-button > img {
+    width: 10px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    left: 35px;
+    bottom: 5px; 
+}
+
+.video-range {
+    width: 404px;
+    height: 12px;
+    border-radius: 25px;
+    background-color: #f5c507;
+    opacity: 0.28;
+}
+
+.video-controll-volume {
+    margin-top: -1px;
+}
+
+.header-text {
+    width: 429px;
+    height: 121px;
+    font-family: Asap;
+    font-size: 56px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.63px;
+    margin-left: 750px;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.header-text__1 {
+    color: #f5c506;
+    padding-bottom: 20px;
+}
+.header-text__2 {
+    color: #f5c506;
+    color: #ffffff;
+}
+
+.slider-buttons {
+    width: 100%;
+    margin-top: -77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 32px;
+    height: 57px;
+    background-color: #f5c506;
+    position: relative;
+}
+.button > img {
+    position: absolute;
+    display: block;
+    right: 7px;
+    bottom: 19px;
+}
+
+#button-left {
+    left: 6px;
+}
+
+
+
+
+
+
+
+main {
+    height: 1220px;
+    width: 100%;
+}
+
+.main-info__basic {
+    height: 212px;
+    width: 100%;
+    background-image: url(images/main-info__bg.png);
+    background-size: cover; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.info-item {
+    width: 340px;
+    height: 212px;
+    border-right: 2px solid rgba(192,192,192, 0.4);
+    position: relative;
+}
+.info-item:first-child{
+    border-left: 2px solid rgba(192,192,192, 0.4)
+}
+
+.info-image {
+    margin-top: 55px;
+}
+
+.info-text {
+    
+    width: 212px;
+    height: 21px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.27px;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+
+.main-events {
+    width: 100%;
+    height: 509px;
+    background-image: url(images/main-events__bg.jpg);
+    background-size: cover;
+}
+
+.main-events__title {
+    width: 617px;
+    height: 28px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 138px;
+    padding-top: 40px;
+}
+
+.events-box {
+    width: 1019px;
+    height: 233px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-box {
+    width: 341px;
+    height: 233px;
+    background-color: #ec9e03;
+}
+
+#event-box_2 {
+    background-image: url(images/event-box_2_video.jpg);
+    width: 315px;    
+    display: block;
+    margin-left: -24px;
+}
+
+#event-box_2 > .video-button-icon__circle {
+    width: 61px;
+    height: 61px;
+    margin-top: 75px;
+    margin-left: -110px;
+}
+
+#event-box_2 > .video-button-icon__recteng {
+    margin-left: -110px;
+    margin-top: -43px;
+}
+.event-box__description {
+    width: 272px;
+    height: 175px;
+    color: #fdf6e7;
+    font-family: "Segoe UI";
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 38px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 36px;
+}
+
+.event-box__twitter {
+    display: block;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-box__plus {
+    margin-left: 315px;
+    margin-top: 15px;
+}
+
+#event-box-plus__3 {
+    margin-top: 20px;
+}
+
+.events-calendar {
+    width: 113px;
+    height: 86px;
+    background-color: #ddb101;
+    margin-left: 141px;
+    position: relative;
+}
+
+.events-calendar__number {
+    width: 55px;
+    height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 38px;
+    position: absolute;
+    left: 32px;
+    top: 16px;
+}
+
+.events-calendar__month {
+    width: 55px;
+    height: 15px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    left: 32px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 900px;
+    margin-left: 213px;
+    margin-top: 43px;
+    border-radius: 25px;
+    opacity: 0.48;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 15.2px;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 25px;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    height: 15px;
+    width: 197px;
+    border-radius: 45px;
+    background: #ec9e03;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 0.1px;
+  }
+ 
+  .twitter-messages {
+      display: none;
+  }
+
+.services {
+    width: 100%;
+    height: 500px;
+    background-image: url(images/service_bg.png);
+    background-size: cover;
+}
+
+.services-title {
+    width: 601px;
+    height: 32px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-size: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+}
+
+.service-devices {
+    width: 553px;
+    height: 255px;
+    margin-left: 10.6%;
+    position: relative;
+}
+
+.services-circle {
+    position: absolute;
+}
+
+.services-circle-text {
+    width: 130px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    padding-top: 52px;
+    padding-left: 4px;
+   
+}
+
+.services-desktop {
+    margin-left: 13px;
+    margin-top: 43px;
+    position: absolute;
+
+}
+
+.services-ipad {
+    margin-top: 85px;
+    margin-left: 367px;
+    position: absolute;
+}
+
+.services-phone {
+    margin-top: 192px;
+    margin-left: 521px;
+    position: absolute;
+}
+
+
+
+.service-lists {
+margin-left: 778px;
+margin-top: -160px;
+
+}
+
+.list-point {
+    width: 345px;
+    height: 49px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    padding-bottom: 4px;
+}
+
+.list-point > img {
+
+}
+
+.list-point > p {
+    margin-top: -22px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 64px;
+    background-color: #4c4c4c;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.75);
+}
+
+#footer-logo {
+    display: flex;
+    margin-left: 10.77%;
+    padding-top: 5px;
+}
+
+#footer-logo-image {
+    width:52px;
+    height: 52px;
+}
+
+#footer-logo-text {
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
+    color: #ffffff;
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 29px;
+    font-style: italic;
+    text-transform: uppercase;;
+    letter-spacing: 0.41px;
+    padding-top: 12px;
+    padding-left: 5px;
+}
+
+
+@media (max-width: 640px) {
+
+    body {
+        width: 640px;
+    }
+
+    /*  Header  */
+
+    header {
+        background-image: none;
+        height: 390px;
+        width: 640px;
+    }
+
+
+
+    nav {
+        width: 640px;
+        height: 62px;
+        display: flex;
+    }
+    .logo {
+        margin: 0;
+        width: 186px;
+        height: 100%;
+        background-color: #585858;
+    }
+
+    .logo-image {
+        width: 40px;
+        height: 39px;
+        margin-top: 11px;
+        margin-left: 12px;
+    }
+
+    .logo-text {
+        font-size: 19px;
+        margin-top: 24px;
+    }
+
+    .main-nav {
+        height: 62px;
+        margin: 0;
+    }
+
+    #original {
+        width: 456px;
+        left: 0;
+        top: 0;
+    }
+
+    .nav-rectangle {
+        width: 455px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #f1c206;
+    }
+
+    .nav-item {
+        padding-left: 10px;
+    }
+    .nav-item > img {
+        margin-top: 19px;
+    }
+    .nav-item__text {
+        font-size: 19px;
+    }
+    .header-text {
+        display: none;
+    }
+
+    .header-video {
+        width: 640px;
+        height: 327px;
+        margin: 0 0;
+    }
+
+    #header-video  {
+        width:640px;
+        height: 327px;
+    
+    }
+
+    .video-button-icon__circle {
+        padding-left: 283px;
+    }
+
+    .video-button-icon__recteng {
+        padding-left: 310px;
+    }
+
+    .button{
+        display: none;
+    }
+
+    #copy-1 , #copy-2 {
+        display: none;
+    }
+
+    .video-controll {
+        bottom: 22px;
+        left: 42px;
+    }
+    /*  //Header    */
+
+    /*  Main    */
+    main {
+        height: auto;
+    }
+    /*  main-info   */
+    .main-info__basic {
+        justify-content: space-between;
+        height: 174px;
+        margin-bottom: 17px;
+    }
+
+    .info-item {
+        border: none;
+        width:30%;
+        height: auto;
+    }
+
+    .info-item:first-child{
+        border: none;
+    }
+
+    .info-image {
+        margin-top: 30px;
+    }
+
+    .info-text {
+        font-size: 23px;
+        left: -10px;
+        bottom: 20px;
+    }
+
+    .info-text:last-child {
+        width: 200px;
+    }
+
+
+    /*  //main-info     */
+    /*  main-events     */
+    .main-events {
+        background-image: none;
+        height: 240px;
+    }
+    .main-events__title {
+        display: none;
+    }
+
+    .events-box {
+        width: 622px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .event-box {
+        width: 299px;
+    }
+
+    .event-box__plus {
+        margin-left: 275px;
+    }
+
+    .event-box:last-child {
+        display: none;
+    }
+
+    .events-calendar {
+        display: none;
+    }
+
+    .event-box > .video-button-icon__circle > img {
+        margin-left: -43px ;
+    }
+
+    .event-box > .video-button-icon__recteng > img {
+        margin-left: -42px;
+    }
+
+    input {
+        display: none;
+    }
+
+    /* //main-events  */
+
+    /* Twitter-messages*/
+
+    .twitter-messages {
+        display: flex;
+        width: 100%;
+        height: 233px;
+        background-color: #f5c507;
+        margin-bottom: 1px;
+    }
+
+    .twitter {
+        width: 50%;
+        height: 100%;
+    }
+    #twitter-logo {
+        display: block;
+        margin: auto;
+        margin-top: 56px;
+    }
+
+    .message {
+        margin-top: 10px;
+    }
+
+    #message-2 {
+        opacity: 0.7;
+    }
+
+    #message-3 {
+        opacity: 0.6;
+    }
+
+    .message-text {
+        width: 217px;
+        height: 28px;
+        color: #8f8e8e;
+        font-family: "Arial MT", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: -37px;
+        margin-left: 26px;
+    }
+
+    .share-message-window {
+        position: relative;
+    }
+
+    #sms-window {
+        margin-top: 18px;
+        margin-left: 13px;
+    }
+    .message-tweet-button {
+        position: absolute;
+        width: 70px;
+        height: 29px;
+        background-color: #e3a11e;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
+        top: 19px;
+        right: 1px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .share-message-word {
+        width: 40px;
+        height: 12px;
+        color: #ffffff;
+        font-family: "Arial MT", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    /* //Twitter-messages*/
+
+    /*  services    */
+
+    .services-title {
+        padding-top: 43px;
+        font-size: 39px;
+        margin-bottom: 42px;
+    }
+
+    .service-devices {
+        margin-left: 27px;
+    }
+
+    .service-lists {
+        display: none;
+    }
+
+    /*  //Services  */
+    /*  Footer  */
+
+    footer {
+        height: 43px;
+    }
+
+    #footer-logo-image {
+        width: 30px;
+        height: 31px;
+    }
+
+    #footer-logo-text {
+        font-size: 17px;
+        padding-top: 9px;
+    }
+    /*  //Footer    */
+}
+
+
+
+
+
+ 
